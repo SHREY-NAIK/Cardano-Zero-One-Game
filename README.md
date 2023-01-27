@@ -10,7 +10,7 @@
 Once you have Plutus development environment, to compile the smart contract follow these instructions:
   
 - Run `nix-shell` inside `plutus-app` folder.
-- Change directory to `ppbl-course-02/project-303/Zero One Game` folder.
+- Change directory to `Zero One Game` folder.
 - Then execute `cabal update` command.
   
 ## Preparation
@@ -99,7 +99,7 @@ There are 5 scripts at `/app` folder:
 - `posixTimeToSlot.hs` converts `POSIXTime` to `Slot` number for **Pre-Production** testnet.
 - `slotToPOSIXTime.hs` converts `Slot` number to `POSIXTime` for **Pre-Production** testnet.
 
-In order to run those script go to `/project-303/Zero One Game` folder and run:
+In order to run those script go to `/Zero One Game` folder and run:
   
 ```bash
 cabal run <NAME_OF_THE_SCRIPT>
